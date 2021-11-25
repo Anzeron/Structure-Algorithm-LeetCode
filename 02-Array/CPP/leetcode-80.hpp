@@ -41,8 +41,8 @@ public:
     }
     
     int solution0(vector<int>& nums) {
-        // [i,j)区间的元素表示当前有效的元素区间
-        // j也表示新长度
+        // [i,j)表示最新的保留元素区间
+        // j也表示新数组长度
         int i = 0;
         int j = 0;
         
@@ -51,7 +51,8 @@ public:
             int i_num = nums[i];
             int k_num = nums[k];
             if (i_num == k_num) {
-                // 当前区间小于2，就要把k_num搬到[i,j)
+                // 当前区间小于2，把k_num搬到[i,j)
+                // 再扩大区间
                 if (j - i < 2) {
                     if (j != k) {
                         swap(nums[j], nums[k]);
@@ -59,7 +60,7 @@ public:
                     j++;
                 }
             } else {
-                // 更新当前有效的区间[i,j)
+                // 向右移动区间，保留新的元素k_num
                 i = j;
                 j = j + 1;
                 if (i != k) {
