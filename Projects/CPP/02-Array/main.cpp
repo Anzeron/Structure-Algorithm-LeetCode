@@ -9,9 +9,11 @@
 #include "leetcode-283.hpp"
 #include "leetcode-27.hpp"
 #include "leetcode-80.hpp"
+#include "leetcode-167.hpp"
 
 int main(int argc, const char * argv[]) {
     LeetCode283::run();
     LeetCode27::run();
     LeetCode80::run();
+    LeetCode167::run();
 }
