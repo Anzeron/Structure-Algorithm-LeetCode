@@ -12,6 +12,7 @@
 		ABBD253627508B9A00F693AB /* LeetCode-283.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD253527508B9A00F693AB /* LeetCode-283.swift */; };
 		ABBD253827508D9100F693AB /* LeetCode-27.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD253727508D9100F693AB /* LeetCode-27.swift */; };
 		ABBD253A2750A57000F693AB /* LeetCode-80.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD25392750A57000F693AB /* LeetCode-80.swift */; };
+		ABC4508D27586EAD00CD263E /* LeetCode-167.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC4508C27586EAD00CD263E /* LeetCode-167.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		ABBD253527508B9A00F693AB /* LeetCode-283.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LeetCode-283.swift"; path = "../../../02-Array/Swift/LeetCode-283.swift"; sourceTree = "<group>"; };
 		ABBD253727508D9100F693AB /* LeetCode-27.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LeetCode-27.swift"; path = "../../../02-Array/Swift/LeetCode-27.swift"; sourceTree = "<group>"; };
 		ABBD25392750A57000F693AB /* LeetCode-80.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LeetCode-80.swift"; path = "../../../02-Array/Swift/LeetCode-80.swift"; sourceTree = "<group>"; };
+		ABC4508C27586EAD00CD263E /* LeetCode-167.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LeetCode-167.swift"; path = "../../../02-Array/Swift/LeetCode-167.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				ABBD253527508B9A00F693AB /* LeetCode-283.swift */,
 				ABBD253727508D9100F693AB /* LeetCode-27.swift */,
 				ABBD25392750A57000F693AB /* LeetCode-80.swift */,
+				ABC4508C27586EAD00CD263E /* LeetCode-167.swift */,
 			);
 			path = "02-Array";
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			files = (
 				ABBD253627508B9A00F693AB /* LeetCode-283.swift in Sources */,
 				ABBD253827508D9100F693AB /* LeetCode-27.swift in Sources */,
+				ABC4508D27586EAD00CD263E /* LeetCode-167.swift in Sources */,
 				ABBD253A2750A57000F693AB /* LeetCode-80.swift in Sources */,
 				ABBD252F27508A4A00F693AB /* main.swift in Sources */,
 			);
