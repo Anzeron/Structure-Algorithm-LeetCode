@@ -56,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AB13EA7E2770A22B00F836AD /* leetcode-203.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = "leetcode-203.hpp"; path = "../../../03-LinkedList/CPP/leetcode-203.hpp"; sourceTree = "<group>"; };
 		AB205DA5274C9A1600BFE3A5 /* leetcode-80.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = "leetcode-80.hpp"; path = "../../../02-Array/CPP/leetcode-80.hpp"; sourceTree = "<group>"; };
 		AB3991C227572388007C8059 /* leetcode-167.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = "leetcode-167.hpp"; path = "../../../02-Array/CPP/leetcode-167.hpp"; sourceTree = "<group>"; };
 		AB4FBB00277034AD00AA3A3D /* leetcode-206.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = "leetcode-206.hpp"; path = "../../../03-LinkedList/CPP/leetcode-206.hpp"; sourceTree = "<group>"; };
@@ -155,6 +156,7 @@
 				ABAF77D2276C3EC200E94306 /* ListNode.cpp */,
 				ABAF77D3276C3EC200E94306 /* ListNode.hpp */,
 				AB4FBB00277034AD00AA3A3D /* leetcode-206.hpp */,
+				AB13EA7E2770A22B00F836AD /* leetcode-203.hpp */,
 			);
 			path = "03-LinkedList";
 			sourceTree = "<group>";
