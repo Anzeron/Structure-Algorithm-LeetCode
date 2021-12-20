@@ -10,6 +10,8 @@
 		AB8875AD273A192400EEF17B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB8875AC273A192400EEF17B /* main.cpp */; };
 		AB8875BA273A1C5D00EEF17B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB8875B9273A1C5D00EEF17B /* main.cpp */; };
 		AB8875C0273A209B00EEF17B /* complexity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB8875BE273A209B00EEF17B /* complexity.cpp */; };
+		ABAF77CE276C3A3C00E94306 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABAF77CD276C3A3C00E94306 /* main.cpp */; };
+		ABAF77D4276C3EC200E94306 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABAF77D2276C3EC200E94306 /* ListNode.cpp */; };
 		ABDCB9AB2747537F0049E1BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABDCB9AA2747537F0049E1BB /* main.cpp */; };
 		ABE85FD527476C400069FC1D /* leetcode-283.hpp in Sources */ = {isa = PBXBuildFile; fileRef = ABE85FD427476C400069FC1D /* leetcode-283.hpp */; };
 /* End PBXBuildFile section */
@@ -25,6 +27,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		AB8875B5273A1C5D00EEF17B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ABAF77C9276C3A3C00E94306 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -54,6 +65,10 @@
 		AB8875B9273A1C5D00EEF17B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AB8875BE273A209B00EEF17B /* complexity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = complexity.cpp; path = "../../../01-Complexity/CPP/complexity.cpp"; sourceTree = "<group>"; };
 		AB8875BF273A209B00EEF17B /* complexity.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = complexity.hpp; path = "../../../01-Complexity/CPP/complexity.hpp"; sourceTree = "<group>"; };
+		ABAF77CB276C3A3C00E94306 /* 03-LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-LinkedList"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAF77CD276C3A3C00E94306 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ABAF77D2276C3EC200E94306 /* ListNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ListNode.cpp; path = "../../../03-LinkedList/CPP/ListNode.cpp"; sourceTree = "<group>"; };
+		ABAF77D3276C3EC200E94306 /* ListNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ListNode.hpp; path = "../../../03-LinkedList/CPP/ListNode.hpp"; sourceTree = "<group>"; };
 		ABDCB9A82747537F0049E1BB /* 02-Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-Array"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDCB9AA2747537F0049E1BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ABE15C98274B4409005C7324 /* leetcode-27.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = "leetcode-27.hpp"; path = "../../../02-Array/CPP/leetcode-27.hpp"; sourceTree = "<group>"; };
@@ -69,6 +84,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AB8875B4273A1C5D00EEF17B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAF77C8276C3A3C00E94306 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -91,6 +113,7 @@
 				AB8875AB273A192400EEF17B /* algorithms-cpp */,
 				AB8875B8273A1C5D00EEF17B /* 01-Complexity */,
 				ABDCB9A92747537F0049E1BB /* 02-Array */,
+				ABAF77CC276C3A3C00E94306 /* 03-LinkedList */,
 				AB8875AA273A192400EEF17B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +124,7 @@
 				AB8875A9273A192400EEF17B /* algorithms-cpp */,
 				AB8875B7273A1C5D00EEF17B /* 01-Complexity */,
 				ABDCB9A82747537F0049E1BB /* 02-Array */,
+				ABAF77CB276C3A3C00E94306 /* 03-LinkedList */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +145,16 @@
 				AB8875BF273A209B00EEF17B /* complexity.hpp */,
 			);
 			path = "01-Complexity";
+			sourceTree = "<group>";
+		};
+		ABAF77CC276C3A3C00E94306 /* 03-LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				ABAF77CD276C3A3C00E94306 /* main.cpp */,
+				ABAF77D2276C3EC200E94306 /* ListNode.cpp */,
+				ABAF77D3276C3EC200E94306 /* ListNode.hpp */,
+			);
+			path = "03-LinkedList";
 			sourceTree = "<group>";
 		};
 		ABDCB9A92747537F0049E1BB /* 02-Array */ = {
@@ -173,6 +207,23 @@
 			productReference = AB8875B7273A1C5D00EEF17B /* 01-Complexity */;
 			productType = "com.apple.product-type.tool";
 		};
+		ABAF77CA276C3A3C00E94306 /* 03-LinkedList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABAF77D1276C3A3C00E94306 /* Build configuration list for PBXNativeTarget "03-LinkedList" */;
+			buildPhases = (
+				ABAF77C7276C3A3C00E94306 /* Sources */,
+				ABAF77C8276C3A3C00E94306 /* Frameworks */,
+				ABAF77C9276C3A3C00E94306 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-LinkedList";
+			productName = "03-LinkedList";
+			productReference = ABAF77CB276C3A3C00E94306 /* 03-LinkedList */;
+			productType = "com.apple.product-type.tool";
+		};
 		ABDCB9A72747537F0049E1BB /* 02-Array */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABDCB9AE2747537F0049E1BB /* Build configuration list for PBXNativeTarget "02-Array" */;
@@ -204,6 +255,9 @@
 					AB8875B6273A1C5D00EEF17B = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
+					ABAF77CA276C3A3C00E94306 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					ABDCB9A72747537F0049E1BB = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -225,6 +279,7 @@
 				AB8875B6273A1C5D00EEF17B /* 01-Complexity */,
 				ABDCB9A72747537F0049E1BB /* 02-Array */,
 				AB8875A8273A192400EEF17B /* algorithms-cpp */,
+				ABAF77CA276C3A3C00E94306 /* 03-LinkedList */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +299,15 @@
 			files = (
 				AB8875BA273A1C5D00EEF17B /* main.cpp in Sources */,
 				AB8875C0273A209B00EEF17B /* complexity.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAF77C7276C3A3C00E94306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAF77CE276C3A3C00E94306 /* main.cpp in Sources */,
+				ABAF77D4276C3EC200E94306 /* ListNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +466,22 @@
 			};
 			name = Release;
 		};
+		ABAF77CF276C3A3C00E94306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABAF77D0276C3A3C00E94306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		ABDCB9AC2747537F0049E1BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -444,6 +524,15 @@
 			buildConfigurations = (
 				AB8875BB273A1C5D00EEF17B /* Debug */,
 				AB8875BC273A1C5D00EEF17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABAF77D1276C3A3C00E94306 /* Build configuration list for PBXNativeTarget "03-LinkedList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAF77CF276C3A3C00E94306 /* Debug */,
+				ABAF77D0276C3A3C00E94306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
