@@ -7,5 +7,6 @@
 
 import Foundation
 
-testListNode()
+//testListNode()
+LeetCode206.run()
 
