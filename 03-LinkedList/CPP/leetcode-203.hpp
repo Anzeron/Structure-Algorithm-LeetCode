@@ -2,7 +2,7 @@
 //  leetcode-203.hpp
 //  03-LinkedList
 //
-//  Created by jiayou on 2021/12/20.
+//  Created by Anzeron on 2021/12/20.
 //
 
 /**
