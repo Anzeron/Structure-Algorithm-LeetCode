@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB200085278D28CF00E64DAD /* LeetCode-204.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB200084278D28CF00E64DAD /* LeetCode-204.swift */; };
 		AB88759A273A185C00EEF17B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB887599273A185C00EEF17B /* main.swift */; };
 		ABAA34EF277177F000E919AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA34EE277177F000E919AC /* main.swift */; };
 		ABAA34F4277179E000E919AC /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA34F3277179E000E919AC /* ListNode.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AB200084278D28CF00E64DAD /* LeetCode-204.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LeetCode-204.swift"; path = "../../../03-LinkedList/Swift/LeetCode-204.swift"; sourceTree = "<group>"; };
 		AB887596273A185C00EEF17B /* algorithms-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "algorithms-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB887599273A185C00EEF17B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		ABAA34EC277177F000E919AC /* 03-LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-LinkedList"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +129,7 @@
 				ABAA34F3277179E000E919AC /* ListNode.swift */,
 				ABAA34F5277181B600E919AC /* LeetCode-206.swift */,
 				ABAA34F7277184C800E919AC /* LeetCode-203.swift */,
+				AB200084278D28CF00E64DAD /* LeetCode-204.swift */,
 			);
 			path = "03-LinkedList";
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB200085278D28CF00E64DAD /* LeetCode-204.swift in Sources */,
 				ABAA34F8277184C800E919AC /* LeetCode-203.swift in Sources */,
 				ABAA34EF277177F000E919AC /* main.swift in Sources */,
 				ABAA34F4277179E000E919AC /* ListNode.swift in Sources */,
