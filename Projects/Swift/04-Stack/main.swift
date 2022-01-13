@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
+LeetCode20.run()
 
