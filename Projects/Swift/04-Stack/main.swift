@@ -7,5 +7,6 @@
 
 import Foundation
 
-LeetCode20.run()
+//LeetCode20.run()
+LeetCode71.run()
 
