@@ -22,6 +22,7 @@
 		ABAA34F8277184C800E919AC /* LeetCode-203.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA34F7277184C800E919AC /* LeetCode-203.swift */; };
 		ABB16B84279A57240015DE5A /* LeetCode102.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB16B83279A57240015DE5A /* LeetCode102.swift */; };
 		ABB16B91279A58310015DE5A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB16B90279A58310015DE5A /* TreeNode.swift */; };
+		ABB29A8E27A24DDD00138AE0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB29A8D27A24DDD00138AE0 /* main.swift */; };
 		ABBD252F27508A4A00F693AB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD252E27508A4A00F693AB /* main.swift */; };
 		ABBD253627508B9A00F693AB /* LeetCode-283.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD253527508B9A00F693AB /* LeetCode-283.swift */; };
 		ABBD253827508D9100F693AB /* LeetCode-27.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD253727508D9100F693AB /* LeetCode-27.swift */; };
@@ -69,6 +70,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ABB29A8927A24DDD00138AE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		ABBD252A27508A4A00F693AB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -100,6 +110,8 @@
 		ABAA34F7277184C800E919AC /* LeetCode-203.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LeetCode-203.swift"; path = "../../../03-LinkedList/Swift/LeetCode-203.swift"; sourceTree = "<group>"; };
 		ABB16B83279A57240015DE5A /* LeetCode102.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeetCode102.swift; path = "../../../05-Queue/Swift/LeetCode102.swift"; sourceTree = "<group>"; };
 		ABB16B90279A58310015DE5A /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeNode.swift; path = "../../../05-Queue/Swift/TreeNode.swift"; sourceTree = "<group>"; };
+		ABB29A8B27A24DDD00138AE0 /* 06-Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06-Recursion"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB29A8D27A24DDD00138AE0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		ABBD252C27508A4A00F693AB /* 02-Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-Array"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBD252E27508A4A00F693AB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		ABBD253527508B9A00F693AB /* LeetCode-283.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LeetCode-283.swift"; path = "../../../02-Array/Swift/LeetCode-283.swift"; sourceTree = "<group>"; };
@@ -134,6 +146,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ABAA34E9277177F000E919AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB29A8827A24DDD00138AE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -181,6 +200,7 @@
 				ABAA34ED277177F000E919AC /* 03-LinkedList */,
 				AB7AF431278FD3B70072C2D9 /* 04-Stack */,
 				AB3F433D27997FDC00451578 /* 05-Queue */,
+				ABB29A8C27A24DDD00138AE0 /* 06-Recursion */,
 				AB887597273A185C00EEF17B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -193,6 +213,7 @@
 				ABAA34EC277177F000E919AC /* 03-LinkedList */,
 				AB7AF430278FD3B70072C2D9 /* 04-Stack */,
 				AB3F433C27997FDC00451578 /* 05-Queue */,
+				ABB29A8B27A24DDD00138AE0 /* 06-Recursion */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,6 +238,14 @@
 				AB29AC3D278EEE76006ED9A5 /* LeetCode-19.swift */,
 			);
 			path = "03-LinkedList";
+			sourceTree = "<group>";
+		};
+		ABB29A8C27A24DDD00138AE0 /* 06-Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				ABB29A8D27A24DDD00138AE0 /* main.swift */,
+			);
+			path = "06-Recursion";
 			sourceTree = "<group>";
 		};
 		ABBD252D27508A4A00F693AB /* 02-Array */ = {
@@ -303,6 +332,23 @@
 			productReference = ABAA34EC277177F000E919AC /* 03-LinkedList */;
 			productType = "com.apple.product-type.tool";
 		};
+		ABB29A8A27A24DDD00138AE0 /* 06-Recursion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB29A9127A24DDD00138AE0 /* Build configuration list for PBXNativeTarget "06-Recursion" */;
+			buildPhases = (
+				ABB29A8727A24DDD00138AE0 /* Sources */,
+				ABB29A8827A24DDD00138AE0 /* Frameworks */,
+				ABB29A8927A24DDD00138AE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06-Recursion";
+			productName = "06-Recursion";
+			productReference = ABB29A8B27A24DDD00138AE0 /* 06-Recursion */;
+			productType = "com.apple.product-type.tool";
+		};
 		ABBD252B27508A4A00F693AB /* 02-Array */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABBD253227508A4A00F693AB /* Build configuration list for PBXNativeTarget "02-Array" */;
@@ -341,6 +387,9 @@
 					ABAA34EB277177F000E919AC = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
+					ABB29A8A27A24DDD00138AE0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					ABBD252B27508A4A00F693AB = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -364,6 +413,7 @@
 				ABAA34EB277177F000E919AC /* 03-LinkedList */,
 				AB7AF42F278FD3B70072C2D9 /* 04-Stack */,
 				AB3F433B27997FDC00451578 /* 05-Queue */,
+				ABB29A8A27A24DDD00138AE0 /* 06-Recursion */,
 			);
 		};
 /* End PBXProject section */
@@ -411,6 +461,14 @@
 				ABAA34EF277177F000E919AC /* main.swift in Sources */,
 				ABAA34F4277179E000E919AC /* ListNode.swift in Sources */,
 				ABAA34F6277181B600E919AC /* LeetCode-206.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB29A8727A24DDD00138AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB29A8E27A24DDD00138AE0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,6 +679,26 @@
 			};
 			name = Release;
 		};
+		ABB29A8F27A24DDD00138AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABB29A9027A24DDD00138AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		ABBD253027508A4A00F693AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -683,6 +761,15 @@
 			buildConfigurations = (
 				ABAA34F0277177F000E919AC /* Debug */,
 				ABAA34F1277177F000E919AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB29A9127A24DDD00138AE0 /* Build configuration list for PBXNativeTarget "06-Recursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB29A8F27A24DDD00138AE0 /* Debug */,
+				ABB29A9027A24DDD00138AE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
