@@ -29,6 +29,7 @@
 		ABBD253827508D9100F693AB /* LeetCode-27.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD253727508D9100F693AB /* LeetCode-27.swift */; };
 		ABBD253A2750A57000F693AB /* LeetCode-80.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD25392750A57000F693AB /* LeetCode-80.swift */; };
 		ABC4508D27586EAD00CD263E /* LeetCode-167.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC4508C27586EAD00CD263E /* LeetCode-167.swift */; };
+		ABCFE9AF27A40D2000933511 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCFE9AE27A40D2000933511 /* main.swift */; };
 		ABEB00B5279121DF001009F6 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEB00B4279121DF001009F6 /* Stack.swift */; };
 		ABEB00B727913C6B001009F6 /* LeetCode71.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEB00B627913C6B001009F6 /* LeetCode71.swift */; };
 		ABF247D32761AF0900F52637 /* LeetCode-209.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF247D22761AF0900F52637 /* LeetCode-209.swift */; };
@@ -89,6 +90,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ABCFE9AA27A40D2000933511 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +130,8 @@
 		ABBD253727508D9100F693AB /* LeetCode-27.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LeetCode-27.swift"; path = "../../../02-Array/Swift/LeetCode-27.swift"; sourceTree = "<group>"; };
 		ABBD25392750A57000F693AB /* LeetCode-80.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LeetCode-80.swift"; path = "../../../02-Array/Swift/LeetCode-80.swift"; sourceTree = "<group>"; };
 		ABC4508C27586EAD00CD263E /* LeetCode-167.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LeetCode-167.swift"; path = "../../../02-Array/Swift/LeetCode-167.swift"; sourceTree = "<group>"; };
+		ABCFE9AC27A40D2000933511 /* 07-BinaryTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07-BinaryTree"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCFE9AE27A40D2000933511 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		ABEB00B4279121DF001009F6 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = "../../../04-Stack/Swift/Stack.swift"; sourceTree = "<group>"; };
 		ABEB00B627913C6B001009F6 /* LeetCode71.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeetCode71.swift; path = "../../../04-Stack/Swift/LeetCode71.swift"; sourceTree = "<group>"; };
 		ABF247D22761AF0900F52637 /* LeetCode-209.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LeetCode-209.swift"; path = "../../../02-Array/Swift/LeetCode-209.swift"; sourceTree = "<group>"; };
@@ -168,6 +180,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABCFE9A927A40D2000933511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -203,6 +222,7 @@
 				AB7AF431278FD3B70072C2D9 /* 04-Stack */,
 				AB3F433D27997FDC00451578 /* 05-Queue */,
 				ABB29A8C27A24DDD00138AE0 /* 06-Recursion */,
+				ABCFE9AD27A40D2000933511 /* 07-BinaryTree */,
 				AB887597273A185C00EEF17B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -216,6 +236,7 @@
 				AB7AF430278FD3B70072C2D9 /* 04-Stack */,
 				AB3F433C27997FDC00451578 /* 05-Queue */,
 				ABB29A8B27A24DDD00138AE0 /* 06-Recursion */,
+				ABCFE9AC27A40D2000933511 /* 07-BinaryTree */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -262,6 +283,14 @@
 				ABF247D22761AF0900F52637 /* LeetCode-209.swift */,
 			);
 			path = "02-Array";
+			sourceTree = "<group>";
+		};
+		ABCFE9AD27A40D2000933511 /* 07-BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFE9AE27A40D2000933511 /* main.swift */,
+			);
+			path = "07-BinaryTree";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,6 +398,23 @@
 			productReference = ABBD252C27508A4A00F693AB /* 02-Array */;
 			productType = "com.apple.product-type.tool";
 		};
+		ABCFE9AB27A40D2000933511 /* 07-BinaryTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCFE9B227A40D2000933511 /* Build configuration list for PBXNativeTarget "07-BinaryTree" */;
+			buildPhases = (
+				ABCFE9A827A40D2000933511 /* Sources */,
+				ABCFE9A927A40D2000933511 /* Frameworks */,
+				ABCFE9AA27A40D2000933511 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07-BinaryTree";
+			productName = "07-BinaryTree";
+			productReference = ABCFE9AC27A40D2000933511 /* 07-BinaryTree */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -396,6 +442,9 @@
 					ABBD252B27508A4A00F693AB = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
+					ABCFE9AB27A40D2000933511 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 				};
 			};
 			buildConfigurationList = AB887591273A185C00EEF17B /* Build configuration list for PBXProject "algorithms-swift" */;
@@ -417,6 +466,7 @@
 				AB7AF42F278FD3B70072C2D9 /* 04-Stack */,
 				AB3F433B27997FDC00451578 /* 05-Queue */,
 				ABB29A8A27A24DDD00138AE0 /* 06-Recursion */,
+				ABCFE9AB27A40D2000933511 /* 07-BinaryTree */,
 			);
 		};
 /* End PBXProject section */
@@ -486,6 +536,14 @@
 				ABC4508D27586EAD00CD263E /* LeetCode-167.swift in Sources */,
 				ABBD253A2750A57000F693AB /* LeetCode-80.swift in Sources */,
 				ABBD252F27508A4A00F693AB /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCFE9A827A40D2000933511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCFE9AF27A40D2000933511 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,6 +779,26 @@
 			};
 			name = Release;
 		};
+		ABCFE9B027A40D2000933511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABCFE9B127A40D2000933511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -783,6 +861,15 @@
 			buildConfigurations = (
 				ABBD253027508A4A00F693AB /* Debug */,
 				ABBD253127508A4A00F693AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCFE9B227A40D2000933511 /* Build configuration list for PBXNativeTarget "07-BinaryTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCFE9B027A40D2000933511 /* Debug */,
+				ABCFE9B127A40D2000933511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
