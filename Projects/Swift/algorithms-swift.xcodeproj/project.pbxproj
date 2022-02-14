@@ -13,6 +13,7 @@
 		AB3F433F27997FDC00451578 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3F433E27997FDC00451578 /* main.swift */; };
 		AB5768F427966C350027F052 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5768F327966C350027F052 /* TreeNode.swift */; };
 		AB5768F827966DBB0027F052 /* LeetCode144.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5768F727966DBB0027F052 /* LeetCode144.swift */; };
+		AB75A0F427B8B74000676764 /* LeetCode226.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB75A0F327B8B74000676764 /* LeetCode226.swift */; };
 		AB7AF433278FD3B70072C2D9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7AF432278FD3B70072C2D9 /* main.swift */; };
 		AB7AF438278FD41A0072C2D9 /* LeetCode20.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7AF437278FD41A0072C2D9 /* LeetCode20.swift */; };
 		AB88759A273A185C00EEF17B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB887599273A185C00EEF17B /* main.swift */; };
@@ -111,6 +112,7 @@
 		AB3F433E27997FDC00451578 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AB5768F327966C350027F052 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TreeNode.swift; path = "../../../04-Stack/Swift/TreeNode.swift"; sourceTree = "<group>"; };
 		AB5768F727966DBB0027F052 /* LeetCode144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeetCode144.swift; path = "../../../04-Stack/Swift/LeetCode144.swift"; sourceTree = "<group>"; };
+		AB75A0F327B8B74000676764 /* LeetCode226.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeetCode226.swift; path = "../../../07-BinaryTree/Swift/LeetCode226.swift"; sourceTree = "<group>"; };
 		AB7AF430278FD3B70072C2D9 /* 04-Stack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-Stack"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7AF432278FD3B70072C2D9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AB7AF437278FD41A0072C2D9 /* LeetCode20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeetCode20.swift; path = "../../../04-Stack/Swift/LeetCode20.swift"; sourceTree = "<group>"; };
@@ -295,6 +297,7 @@
 				ABCFE9AE27A40D2000933511 /* main.swift */,
 				ABCFE9B327A40E4A00933511 /* TreeNode.swift */,
 				ABCFE9B527A40EDC00933511 /* LeetCode104.swift */,
+				AB75A0F327B8B74000676764 /* LeetCode226.swift */,
 			);
 			path = "07-BinaryTree";
 			sourceTree = "<group>";
@@ -552,6 +555,7 @@
 				ABCFE9B627A40EDC00933511 /* LeetCode104.swift in Sources */,
 				ABCFE9AF27A40D2000933511 /* main.swift in Sources */,
 				ABCFE9B427A40E4A00933511 /* TreeNode.swift in Sources */,
+				AB75A0F427B8B74000676764 /* LeetCode226.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
