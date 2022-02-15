@@ -36,6 +36,7 @@
 		ABEB00B5279121DF001009F6 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEB00B4279121DF001009F6 /* Stack.swift */; };
 		ABEB00B727913C6B001009F6 /* LeetCode71.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEB00B627913C6B001009F6 /* LeetCode71.swift */; };
 		ABF247D32761AF0900F52637 /* LeetCode-209.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF247D22761AF0900F52637 /* LeetCode-209.swift */; };
+		ABF2E7A227BB6CBD002E8D03 /* LeetCode112.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF2E7A127BB6CBD002E8D03 /* LeetCode112.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -141,6 +142,7 @@
 		ABEB00B4279121DF001009F6 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = "../../../04-Stack/Swift/Stack.swift"; sourceTree = "<group>"; };
 		ABEB00B627913C6B001009F6 /* LeetCode71.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeetCode71.swift; path = "../../../04-Stack/Swift/LeetCode71.swift"; sourceTree = "<group>"; };
 		ABF247D22761AF0900F52637 /* LeetCode-209.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LeetCode-209.swift"; path = "../../../02-Array/Swift/LeetCode-209.swift"; sourceTree = "<group>"; };
+		ABF2E7A127BB6CBD002E8D03 /* LeetCode112.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeetCode112.swift; path = "../../../07-BinaryTree/Swift/LeetCode112.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,6 +300,7 @@
 				ABCFE9B327A40E4A00933511 /* TreeNode.swift */,
 				ABCFE9B527A40EDC00933511 /* LeetCode104.swift */,
 				AB75A0F327B8B74000676764 /* LeetCode226.swift */,
+				ABF2E7A127BB6CBD002E8D03 /* LeetCode112.swift */,
 			);
 			path = "07-BinaryTree";
 			sourceTree = "<group>";
@@ -556,6 +559,7 @@
 				ABCFE9AF27A40D2000933511 /* main.swift in Sources */,
 				ABCFE9B427A40E4A00933511 /* TreeNode.swift in Sources */,
 				AB75A0F427B8B74000676764 /* LeetCode226.swift in Sources */,
+				ABF2E7A227BB6CBD002E8D03 /* LeetCode112.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
