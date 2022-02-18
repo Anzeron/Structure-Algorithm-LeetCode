@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB007AC527BF499100EC7C28 /* LeetCode257.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB007AC427BF499100EC7C28 /* LeetCode257.swift */; };
 		AB17390827BCA28300F491D0 /* LeetCode111.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB17390727BCA28300F491D0 /* LeetCode111.swift */; };
 		AB200085278D28CF00E64DAD /* LeetCode-204.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB200084278D28CF00E64DAD /* LeetCode-204.swift */; };
 		AB29AC3A278EE936006ED9A5 /* LeetCode-237.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29AC39278EE936006ED9A5 /* LeetCode-237.swift */; };
@@ -107,6 +108,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AB007AC427BF499100EC7C28 /* LeetCode257.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeetCode257.swift; path = "../../../07-BinaryTree/Swift/LeetCode257.swift"; sourceTree = "<group>"; };
 		AB17390727BCA28300F491D0 /* LeetCode111.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeetCode111.swift; path = "../../../07-BinaryTree/Swift/LeetCode111.swift"; sourceTree = "<group>"; };
 		AB200084278D28CF00E64DAD /* LeetCode-204.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LeetCode-204.swift"; path = "../../../03-LinkedList/Swift/LeetCode-204.swift"; sourceTree = "<group>"; };
 		AB29AC39278EE936006ED9A5 /* LeetCode-237.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LeetCode-237.swift"; path = "../../../03-LinkedList/Swift/LeetCode-237.swift"; sourceTree = "<group>"; };
@@ -304,6 +306,7 @@
 				AB75A0F327B8B74000676764 /* LeetCode226.swift */,
 				ABF2E7A127BB6CBD002E8D03 /* LeetCode112.swift */,
 				AB17390727BCA28300F491D0 /* LeetCode111.swift */,
+				AB007AC427BF499100EC7C28 /* LeetCode257.swift */,
 			);
 			path = "07-BinaryTree";
 			sourceTree = "<group>";
@@ -560,6 +563,7 @@
 			files = (
 				ABCFE9B627A40EDC00933511 /* LeetCode104.swift in Sources */,
 				ABCFE9AF27A40D2000933511 /* main.swift in Sources */,
+				AB007AC527BF499100EC7C28 /* LeetCode257.swift in Sources */,
 				ABCFE9B427A40E4A00933511 /* TreeNode.swift in Sources */,
 				AB75A0F427B8B74000676764 /* LeetCode226.swift in Sources */,
 				AB17390827BCA28300F491D0 /* LeetCode111.swift in Sources */,
