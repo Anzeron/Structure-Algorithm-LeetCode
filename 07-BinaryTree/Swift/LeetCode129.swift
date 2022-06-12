@@ -36,7 +36,7 @@
 
 import Foundation
 
-class Solution {
+class LeetCode129 {
     func sumNumbers(_ root: TreeNode?) -> Int {
         let paths = self.paths(root)
         
